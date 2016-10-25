@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VIDA ORGÂNICA</string>
+    <string name="frase">Faça sua pesquise agora mesmo e encontre as frutas, legumes e verduras
+        orgânicas e saudáveis mais perto de você.</string>
+    <string name="entrar">Entrar</string>
+    <string name="entrarSenha">ENTRE COM A SENHA</string>
+    <string name="fazerCadastro">FAÇA SEU CADASTRO</string>
+    <string name="cadastrar">CADASTRAR</string>
+
+</resources>
