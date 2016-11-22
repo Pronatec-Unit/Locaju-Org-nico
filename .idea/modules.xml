@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/apps/Locaju/app/VidaOrganica/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/24.2.1.iml" filepath="$PROJECT_DIR$/apps/Locaju/app/VidaOrganica/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/24.2.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/Locaju/app/src/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/apps/Locaju/app/src/androidTest/androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/Locaju/app/VidaOrganica/app/build/generated/source/buildConfig/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/apps/Locaju/app/VidaOrganica/app/build/generated/source/buildConfig/androidTest/androidTest1.iml" />
@@ -17,6 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/apps/Locaju/app/VidaOrganica/app/src/test/test.iml" filepath="$PROJECT_DIR$/apps/Locaju/app/VidaOrganica/app/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/Locaju/app/src/test/test1.iml" filepath="$PROJECT_DIR$/apps/Locaju/app/src/test/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/Locaju/app/MediaUnit/app/src/test/test2.iml" filepath="$PROJECT_DIR$/apps/Locaju/app/MediaUnit/app/src/test/test2.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/VidaOrganica.iml" filepath="$PROJECT_DIR$/VidaOrganica.iml" />
+>>>>>>> origin/master
     </modules>
   </component>
 </project>
