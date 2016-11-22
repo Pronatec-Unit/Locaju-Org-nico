@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tela_principal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -10,55 +12,106 @@
     tools:context="br.com.vidaorganica.vidaorganica.MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:id="@+id/linearLayout2">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/logo_vida"
-            android:layout_alignTop="@+id/linearLayout"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/logo_vida"
-            android:scaleType="center"/>
+            app:srcCompat="@drawable/logo_vida"
+            android:id="@+id/logo_vida" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/slogan"
-            android:layout_below="@+id/linearLayout2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="3dp"
             android:text="@string/slogan"
-            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frase"
             android:textAlignment="center"
-            android:textStyle="bold"
-            android:padding="10dp"
-            android:background="#92fbb7" />
+            android:textSize="18sp"
+            android:background="#008000"
+            android:textColor="#ffffff"
+            android:textStyle="normal|bold"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"/>
 
         <SearchView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/searchView"
-            android:layout_below="@+id/linearLayout2"
-            android:layout_centerHorizontal="true"
-            android:background="#dedcdc" />
+            android:layout_marginTop="10dp"
+            android:background="#dcdcdc"
+            android:id="@+id/pesquisar"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scaleType="center"
-            android:src="@drawable/organicos"
-            />
-
+            app:srcCompat="@drawable/organicos"
+            android:id="@+id/organicos" />
 
     </LinearLayout>
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:layout_marginBottom="160dp"
+        android:background="#ffffe0"
+        android:id="@+id/senha"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Faça Seu Cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cadastro"
+        android:textSize="18dp"
+        android:background="#008000"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:textStyle="normal|bold"
+        android:lineSpacingExtra="24sp"
+        android:margin_Top="10dp"
+        android:paddingTop="10dp"
+        android:layout_alignRight="@+id/buttonEntrar"
+        android:layout_alignEnd="@+id/buttonEntrar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/buttonEntrar"
+        android:layout_alignStart="@+id/buttonEntrar" />
+
+    <TextView
+        android:text="Entre com a senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textSenha"
+        android:textSize="18dp"
+        android:layout_marginTop="23dp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/senha"
+        android:layout_alignLeft="@+id/cadastro"
+        android:layout_alignStart="@+id/cadastro"
+        android:layout_alignRight="@+id/senha"
+        android:layout_alignEnd="@+id/senha" />
+
+    <Button
+        android:text="Entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonEntrar"
+        android:background="#008000"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textSenha"
+        android:layout_alignLeft="@+id/senha"
+        android:layout_alignStart="@+id/senha"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/senha"
+        android:layout_alignEnd="@+id/senha"
+        android:textStyle="normal|bold" />
 
 </RelativeLayout>
