@@ -1,10 +1,105 @@
 <resources>
+
     <string name="app_name">VIDA ORGÂNICA</string>
-    <string name="frase">Faça sua pesquise agora mesmo e encontre as frutas, legumes e verduras
-        orgânicas e saudáveis mais perto de você.</string>
-    <string name="entrar">Entrar</string>
-    <string name="entrarSenha">ENTRE COM A SENHA</string>
-    <string name="fazerCadastro">FAÇA SEU CADASTRO</string>
-    <string name="cadastrar">CADASTRAR</string>
+    <string name="descricao">Vida Orgânica</string>
+    <string name="frase">Faça sua pesquise agora mesmo e encontrem as frutas, legumes e verduras
+        orgânicas e saudáveis nas feiras de Aracaju mais perto de sua redidência. Vale apena conferir!</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="sair">SAIR</string>
+    <string name="listaFeira">FEIRAS ORGÂNICAS DE ARACAJU</string>
+
+
+    <string name="title_activity_lista_feira_organica">ListaFeiraOrganica</string>
+    <string name="botao_farolandia">FAROLÂNCIA</string>
+    <string name="botao_mosqueiro">MOSQUEIRO</string>
+    <string name="botao_centro">CENTRO</string>
+    <string name="botao_santa_tereza">SANTA TEREZA</string>
+    <string name="botao_treze_julho">13 de Julho</string>
+    <string name="botao_inacio_barbosa">INÁCIO BARBOSA</string>
+    <string name="botao_atalaia">ATALAIA</string>
+
+
+    <string name="title_activity_maps_mosqueiro">Feira Horgânica no Mosqueiro</string>
+    <string name="title_activity_main_mosqueiro">MainActivityMosqueiro</string>
+    <string name="feira_mosqueiro">Feira Orgânica Nossa Horta</string>
+    <string name="endereco_feira_mosqueiro">Rodovia dos Náufragos, 6422 - Mosqueiro / Aracaju-SE</string>
+    <string name="dias_feira_mosqueiro">Dia das Feiras</string>
+    <string name="produtos_mosqueiro">Produtos: Legumes, Verduras</string>
+    <string name="semana_mosqueiro">Segunda-Feira - Terça-Feira - Quarta-Feira - Quinta-Feira - Sexta-Feira</string>
+    <string name="descricao_mapa_mosqueiro">Rodovia dos Náufragos, 6422 - Mosqueiro / Aracaju-SE nos dias de
+        Seg, Ter, Qua, Qui e Sex</string>
+
+
+    <string name="title_activity_main_centro">MainActivityCentro</string>
+    <string name="title_activity_maps_centro">Feira Horgânica no Centro</string>
+    <string name="feira_centro">Feira da Agricultura Familiar na Seides</string>
+    <string name="endereco_feira_centro">Rua Santa Luzia, 680 - Centro / Aracajú-SE </string>
+    <string name="dias_feira_centro">Dia da Feira</string>
+    <string name="produtos_centro">Produtos: Frutas, Geléias e doces, Legumes, Verduras</string>
+    <string name="semana_centro"> Quinta-feira - Horário: 07:00 às 12:00h - Periodicidade: Quinzenal </string>
+    <string name="descricao_mapa_centro">Rua Santa Luzia, 680 - Centro / Aracajú-SE no dia de Quinta-Feira </string>
+
+
+    <string name="title_activity_main_atalaia">MainActivityAtalaia</string>
+    <string name="title_activity_maps_atalaia">Feira Horgânica na Atalaia</string>
+    <string name="titulo_feira_atalaia">Feira Cantinho da Roça</string>
+    <string name="endereco_feira_atalaia">Rua Coronel José Figueiredo de Albuquerque, 542 – Atalaia
+        / Aracaju-SE</string>
+    <string name="dia_feira_atalaia">Dia da Feira</string>
+    <string name="semana_atalaia">Sexta-feira - Horário: 18:00 às 22:00h</string>
+    <string name="produtos_atalaia">Produtos: Legumes, Frutas, Hortaliças e Processados</string>
+    <string name="descricao_mapa_atalaia">Rua Coronel José Figueiredo de Albuquerque, 542 – Atalaia
+        / Aracaju-SE no dia de Sexta-feira - Horário: 18:00 às 22:00h </string>
+
+
+    <string name="title_activity_main_treze_julho">MainActivityTrezeJulho</string>
+    <string name="title_activity_maps_treze_julho">Feira Horgânica na 13 de Julho</string>
+    <string name="titulo_feira_treze_julho">Feira Horgânica da ASPOAGRE (Associação de Produtores
+        Orgânicos do Agreste)</string>
+    <string name="endereco_feira_treze_julho"> Av. Beira Mar, 2400 - Praia 13 de Julho / Aracaju-SE</string>
+    <string name="dia_feira_treze_julho">Dia da Feira</string>
+    <string name="semana_treze_atalaia">Quarta-feira - Horário: 12:00 às 17:00h - Periodicidade: Semanal</string>
+    <string name="produtos_treze_jullho">Produtos: Frutas, Legumes, Verduras</string>
+    <string name="descricao_mapa_treze_julho">Av. Beira Mar, 2400 - Praia 13 de Julho / Aracaju-SE
+        / Aracaju-SE no dia de Quarta-feira - Horário: 12:00 às 17:00h - Periodicidade: Semanal </string>
+
+
+    <string name="title_activity_main_farolandia">MainActivityFarolandia</string>
+    <string name="title_activity_maps_farolandia">Feira Horgânica na Farolândia</string>
+    <string name="titulo_feira_farolandia">Mercado do conjunto albano franco – Stand de organicos e
+        de agricultura familiar</string>
+    <string name="endereco_feira_farolandia">Rua Três - Farolândia / Aracaju/SE</string>
+    <string name="dia_feira_farolandia">Dias da Feira</string>
+    <string name="semana_farolandia">Terça-Feira - Quarta-Feira - Quinta-Feira - Sexta-Feira - Sabado
+        e Domingo</string>
+    <string name="produtos_farolandia">Produtos: Café, Frutas, Geléias e doces, Laticínios, Legumes,
+        leguminosas, Ovos, Pães e Cereais, Verduras</string>
+    <string name="descricao_mapa_farolandia">Rua Três, 1-129 - Farolândia / Aracaju/SE
+        no dia de Terça-Feira - Quarta-Feira - Quinta-Feira - Sexta-Feira - Sabado e Domingo -
+        Periodicidade: Semanal </string>
+
+
+    <string name="title_activity_main_inacio_barbosa">MainActivityInacioBarbosa</string>
+    <string name="title_activity_maps_inacio_barbosa">Feira Horgânica no Inácio Barbosa</string>
+    <string name="titulo_feira_inacio_barbosa">Feira da Agricultura Familiar – SEED</string>
+    <string name="endereco_inacio_barbosa">Rua Gutemberg Chagas, 169 - Inácio Barbosa - Aracajú/SE</string>
+    <string name="dia_feira_inacio_barbosa">Dia da Feira</string>
+    <string name="semana_inacio_barbosa">Sexta-Feira</string>
+    <string name="produtos_inacio_barbosa">Produtos: Bolos / quiches / tortas, Café, Frutas, Geléias
+        e doces, Laticínios, Legumes, leguminosas, Ovos, Verduras</string>
+    <string name="descricao_mapa_inacio_barbosa">Rua Gutemberg Chagas, 169 - Aracajú/SE
+        no dia de Sexta-Feira </string>
+
+
+    <string name="title_activity_main_santa_tereza">MainActivityCentro</string>
+    <string name="title_activity_maps_santa_tereza">Feira Horgânica no Santa Tereza</string>
+    <string name="titulo_feira_santa_tereza">Feira Horgânica Cantinho da Roça</string>
+    <string name="endereco_feira_santa_tereza"> Praça Das Mães, Próximo ao Aeroporto Santa Maria,
+        conjunto Santa Tereza - Bairro Aeroporto / Aracajú-SE </string>
+    <string name="dia_feira_santa_tereza">Dia da Feira</string>
+    <string name="produtos_santa_tereza">Produtos: Frutas, Legumes, Verduras</string>
+    <string name="semana_santa_tereza"> Quarta-Feira - Horário: A partir das 16h </string>
+    <string name="descricao_mapa_santa_tereza">Praça Das Mães, Próximo ao Aeroporto Santa Maria,
+        conjunto Santa Tereza - Bairro Aeroporto / Aracajú-SE no dia de Quarta-Feira </string>
 
 </resources>
